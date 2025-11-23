@@ -1,0 +1,86 @@
+{
+  "name": "@spotly-backend/spotly-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/spotly-backend/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["@spotly-backend/core"],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "dependsOn": ["^build"],
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/spotly-backend",
+        "main": "apps/spotly-backend/src/main.ts",
+        "tsConfig": "apps/spotly-backend/tsconfig.app.json",
+        "assets": ["apps/spotly-backend/src/assets"],
+        "isolatedConfig": true,
+        "webpackConfig": "apps/spotly-backend/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["^build"],
+      "options": {
+        "buildTarget": "@spotly-backend/spotly-backend:build",
+        "watch": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "@spotly-backend/spotly-backend:build:development",
+          "watch": true
+        },
+        "production": {
+          "buildTarget": "@spotly-backend/spotly-backend:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/spotly-backend/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/spotly-backend/jest.config.cts"
+      }
+    },
+    "test:e2e": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/spotly-backend/test/e2e/jest-e2e.config.ts",
+        "passWithNoTests": false
+      }
+    },
+    "docker-build": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "options": {
+        "command": "docker build -f apps/spotly-backend/Dockerfile . -t spotly-backend",
+        "cwd": "{workspaceRoot}"
+      }
+    },
+    "docker-build-amd64": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "options": {
+        "command": "docker buildx build -f apps/spotly-backend/Dockerfile . -t spotly-backend --platform=linux/amd64",
+        "cwd": "{workspaceRoot}"
+      }
+    }
+  }
+}

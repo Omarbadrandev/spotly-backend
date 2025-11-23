@@ -16,6 +16,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@spotly-backend/source"]
-  }
+    "customConditions": ["@spotly-backend/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@spotly-backend/core": [
+        "packages/spotly-backend-core/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
 }

@@ -52,7 +52,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/spotly-backend-e2e/**/*"]
+      "exclude": ["apps/spotly-backend-e2e/**/*", "apps/spotly-backend/**/*", "packages/spotly-backend-core/**/*"]
     },
     {
       "plugin": "@nx/docker",

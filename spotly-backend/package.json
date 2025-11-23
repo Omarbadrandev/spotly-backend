@@ -8,7 +8,7 @@
     "test": "nx run-many -t test",
     "lint": "nx run-many -t lint",
     "typecheck": "nx run-many -t typecheck",
-    "serve": "nx serve spotly-backend",
+    "serve": "nx serve @spotly-backend/spotly-backend",
     "prisma:generate": "nx run @spotly-backend/core:prisma:generate",
     "prisma:migrate": "pnpm --filter @spotly-backend/core run prisma:migrate",
     "prisma:migrate:apply": "pnpm --filter @spotly-backend/core run prisma:migrate:apply",

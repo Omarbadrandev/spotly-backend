@@ -31,7 +31,7 @@ pnpm install
 Start the development server:
 
 ```bash
-npx nx serve spotly-backend
+npx nx serve @spotly-backend/spotly-backend
 ```
 
 The application will be available at `http://localhost:3000/api`
@@ -41,7 +41,7 @@ The application will be available at `http://localhost:3000/api`
 Build the application:
 
 ```bash
-npx nx build spotly-backend
+npx nx build @spotly-backend/spotly-backend
 ```
 
 Build all projects:
@@ -63,13 +63,13 @@ This project uses **pnpm** with workspaces. The workspace configuration is defin
 Run unit tests:
 
 ```bash
-npx nx test spotly-backend
+npx nx test @spotly-backend/spotly-backend
 ```
 
 Run e2e tests:
 
 ```bash
-npx nx e2e spotly-backend-e2e
+npx nx e2e @spotly-backend/spotly-backend-e2e
 ```
 
 Run tests for all projects:
@@ -83,13 +83,13 @@ npx nx run-many -t test
 Build the Docker image:
 
 ```bash
-npx nx docker:build spotly-backend
+npx nx docker:build @spotly-backend/spotly-backend
 ```
 
 Run the container:
 
 ```bash
-npx nx docker:run spotly-backend -p 3000:3000
+npx nx docker:run @spotly-backend/spotly-backend -p 3000:3000
 ```
 
 The Dockerfile uses corepack to manage pnpm and is optimized for production builds.
@@ -111,8 +111,8 @@ This project uses [Prisma](https://www.prisma.io/) for database management. The 
 
 ## 📝 Code Quality
 
-- **Linting**: `npx nx lint spotly-backend`
-- **Type Checking**: `npx nx typecheck spotly-backend`
+- **Linting**: `npx nx lint @spotly-backend/spotly-backend`
+- **Type Checking**: `npx nx typecheck @spotly-backend/spotly-backend`
 - **Formatting**: Prettier is configured
 
 ## 🏷️ Commit Convention
