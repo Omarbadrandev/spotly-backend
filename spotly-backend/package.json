@@ -11,6 +11,7 @@
     "serve": "nx serve spotly-backend",
     "prisma:generate": "nx run @spotly-backend/core:prisma:generate",
     "prisma:migrate": "pnpm --filter @spotly-backend/core run prisma:migrate",
+    "prisma:migrate:apply": "pnpm --filter @spotly-backend/core run prisma:migrate:apply",
     "prisma:studio": "pnpm --filter @spotly-backend/core run prisma:studio"
   },
   "private": true,
@@ -18,7 +19,7 @@
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
     "@nestjs/platform-express": "^11.0.0",
-    "@prisma/client": "^7.0.0",
+    "@prisma/client": "^5.22.0",
     "axios": "^1.6.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0"
@@ -43,6 +44,8 @@
     "@swc/jest": "~0.2.38",
     "@types/jest": "^30.0.0",
     "@types/node": "20.19.9",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "jest": "^30.0.2",
@@ -50,15 +53,13 @@
     "jest-util": "^30.0.2",
     "nx": "22.1.1",
     "prettier": "^2.6.2",
-    "prisma": "^7.0.0",
+    "prisma": "^5.22.0",
     "ts-jest": "^29.4.0",
     "ts-node": "10.9.1",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",
-    "webpack-cli": "^5.1.4",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "webpack-cli": "^5.1.4"
   },
   "config": {
     "commitizen": {

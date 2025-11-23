@@ -1,22 +1,14 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
     provider = "prisma-client-js"
-    output   = "../node_modules/.prisma/client"
 }
-
-// The `url` property is deprecated in prisma schema files as of Prisma 7.
-// Move connection URLs for migrate to `prisma.config.ts` instead.
 
 datasource db {
     provider = "postgresql"
+    url      = env("DATABASE_URL")
 }
 
-// Example User model - update based on your needs
 model ParkingSpot {
-    id String @id @default(uuid())
-
+    id          String   @id @default(uuid())
     name        String
     description String?
     latitude    Float
