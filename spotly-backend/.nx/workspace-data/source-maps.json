@@ -1,0 +1,894 @@
+{
+  "apps/spotly-backend": {
+    "root": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/spotly-backend/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "projectType": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.syncGenerators": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.cwd": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.args": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.command": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.continuous": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.syncGenerators": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/spotly-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.lint": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/spotly-backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/spotly-backend/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "metadata.targetGroups": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "metadata.targetGroups.Docker": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "metadata.targetGroups.Docker.0": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "metadata.targetGroups.Docker.1": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "metadata.targetGroups.Docker.2": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.docker:build.dependsOn": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.docker:build.options": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.inputs": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.executor": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.options.cwd": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.options.args": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.options.command": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.technologies": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.technologies.0": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.description": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.help": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.help.command": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:build.metadata.help.example": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.dependsOn": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.options": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.inputs": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.executor": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.options.cwd": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.options.command": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.technologies": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.technologies.0": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.description": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.help": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.help.command": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.docker:run.metadata.help.example": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.nx-release-publish": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/spotly-backend/Dockerfile",
+      "@nx/docker"
+    ],
+    "name": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations.development.args": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.dependsOn": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.cache": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.executor": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.outputs": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.options": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune-lockfile.options.buildTarget": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.dependsOn": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.cache": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.outputs": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.executor": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.options": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.copy-workspace-modules.options.buildTarget": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune.dependsOn": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prune.executor": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.continuous": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.executor": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.dependsOn": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options.runBuildTargetDependencies": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/spotly-backend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/spotly-backend-e2e": {
+    "root": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/spotly-backend-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.lint": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/spotly-backend-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies.@spotly-backend/spotly-backend": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.executor": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.outputs": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.options": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "apps/spotly-backend-e2e/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}
