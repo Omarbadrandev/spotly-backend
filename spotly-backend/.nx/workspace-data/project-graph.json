@@ -1,7 +1,7 @@
 {
   "nodes": {
-    "spotly-backend-core": {
-      "name": "spotly-backend-core",
+    "@spotly-backend/core": {
+      "name": "@spotly-backend/core",
       "type": "lib",
       "data": {
         "root": "packages/spotly-backend-core",
@@ -17,19 +17,24 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/tsconfig.lib.json",
-              "{projectRoot}/src/**/*.ts",
-              "!{projectRoot}/jest.config.ts",
-              "!{projectRoot}/src/**/*.spec.ts",
-              "!{projectRoot}/src/**/*.test.ts",
+              "production",
               "^production"
             ],
             "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/packages/spotly-backend-core/**/*.d.ts",
-              "{workspaceRoot}/dist/packages/spotly-backend-core/**/*.d.ts.map",
               "{workspaceRoot}/dist/packages/*.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -189,7 +194,7 @@
             "parallelism": true
           }
         },
-        "name": "spotly-backend-core",
+        "name": "@spotly-backend/core",
         "tags": [
           "npm:public"
         ],
@@ -406,7 +411,7 @@
               }
             ],
             "outputs": [
-              "{workspaceRoot}/apps/spotly-backend/dist"
+              "{workspaceRoot}/dist/apps/spotly-backend"
             ],
             "metadata": {
               "technologies": [
@@ -701,8 +706,8 @@
             "cache": true,
             "executor": "@nx/js:prune-lockfile",
             "outputs": [
-              "{workspaceRoot}/apps/spotly-backend/dist/package.json",
-              "{workspaceRoot}/apps/spotly-backend/dist/package-lock.json"
+              "{workspaceRoot}/dist/apps/spotly-backend/package.json",
+              "{workspaceRoot}/dist/apps/spotly-backend/package-lock.json"
             ],
             "options": {
               "buildTarget": "build"
@@ -716,7 +721,7 @@
             ],
             "cache": true,
             "outputs": [
-              "{workspaceRoot}/apps/spotly-backend/dist/workspace_modules"
+              "{workspaceRoot}/dist/apps/spotly-backend/workspace_modules"
             ],
             "executor": "@nx/js:copy-workspace-modules",
             "options": {
@@ -12174,29 +12179,29 @@
     }
   },
   "dependencies": {
-    "spotly-backend-core": [
+    "@spotly-backend/core": [
       {
-        "source": "spotly-backend-core",
+        "source": "@spotly-backend/core",
         "target": "npm:jest",
         "type": "static"
       },
       {
-        "source": "spotly-backend-core",
+        "source": "@spotly-backend/core",
         "target": "npm:prisma",
         "type": "static"
       },
       {
-        "source": "spotly-backend-core",
+        "source": "@spotly-backend/core",
         "target": "npm:@nestjs/common",
         "type": "static"
       },
       {
-        "source": "spotly-backend-core",
+        "source": "@spotly-backend/core",
         "target": "npm:@prisma/client",
         "type": "static"
       },
       {
-        "source": "spotly-backend-core",
+        "source": "@spotly-backend/core",
         "target": "npm:axios",
         "type": "static"
       }
@@ -12221,37 +12226,17 @@
     "@spotly-backend/spotly-backend": [
       {
         "source": "@spotly-backend/spotly-backend",
-        "target": "npm:@nestjs/common",
-        "type": "dynamic"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
-        "target": "npm:@nestjs/common",
-        "type": "static"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
-        "target": "npm:@nestjs/core",
-        "type": "dynamic"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
-        "target": "npm:@nestjs/core",
-        "type": "static"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
-        "target": "npm:tslib",
-        "type": "dynamic"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
-        "target": "npm:tslib",
-        "type": "static"
-      },
-      {
-        "source": "@spotly-backend/spotly-backend",
         "target": "npm:@nestjs/testing",
+        "type": "static"
+      },
+      {
+        "source": "@spotly-backend/spotly-backend",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "@spotly-backend/spotly-backend",
+        "target": "npm:@nestjs/core",
         "type": "static"
       },
       {
@@ -12267,6 +12252,11 @@
       {
         "source": "@spotly-backend/spotly-backend",
         "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "@spotly-backend/spotly-backend",
+        "target": "npm:tslib",
         "type": "static"
       },
       {
@@ -27197,5 +27187,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1763905839046
+  "computedAt": 1763907787181
 }

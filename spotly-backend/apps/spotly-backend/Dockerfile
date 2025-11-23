@@ -24,4 +24,4 @@ RUN pnpm install --frozen-lockfile --prod
 # Copy the built application
 COPY dist .
 
-CMD [ "node", "dist/apps/spotly-backend/main.js" ]
+CMD [ "node", "apps/spotly-backend/main.js" ]

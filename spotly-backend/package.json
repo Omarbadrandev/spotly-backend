@@ -10,8 +10,8 @@
     "typecheck": "nx run-many -t typecheck",
     "serve": "nx serve spotly-backend",
     "prisma:generate": "nx run @spotly-backend/core:prisma:generate",
-    "prisma:migrate": "pnpm --filter @spotly-backend/core prisma migrate dev",
-    "prisma:studio": "pnpm --filter @spotly-backend/core prisma studio"
+    "prisma:migrate": "pnpm --filter @spotly-backend/core run prisma:migrate",
+    "prisma:studio": "pnpm --filter @spotly-backend/core run prisma:studio"
   },
   "private": true,
   "dependencies": {

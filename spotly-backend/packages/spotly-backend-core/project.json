@@ -1,5 +1,5 @@
 {
-  "name": "spotly-backend-core",
+  "name": "@spotly-backend/core",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/spotly-backend-core/src",
   "projectType": "library",

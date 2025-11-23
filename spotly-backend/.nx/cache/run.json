@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx run-many -t build",
-    "startTime": "2025-11-23T13:50:34.772Z",
-    "endTime": "2025-11-23T13:50:38.476Z",
+    "command": "nx serve spotly-backend",
+    "startTime": "2025-11-23T14:23:06.619Z",
+    "endTime": "2025-11-23T14:24:45.117Z",
     "inner": false
   },
   "tasks": [
@@ -10,33 +10,11 @@
       "taskId": "@spotly-backend/spotly-backend:build",
       "target": "build",
       "projectName": "@spotly-backend/spotly-backend",
-      "hash": "1721591918284435004",
-      "startTime": "2025-11-23T13:50:34.812Z",
-      "endTime": "2025-11-23T13:50:36.415Z",
+      "hash": "11038178620700163304",
+      "startTime": "2025-11-23T14:23:06.646Z",
+      "endTime": "2025-11-23T14:23:06.663Z",
       "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "spotly-backend-core:prisma:generate",
-      "target": "prisma:generate",
-      "projectName": "spotly-backend-core",
-      "hash": "11558907721535713069",
-      "startTime": "2025-11-23T13:50:34.812Z",
-      "endTime": "2025-11-23T13:50:37.641Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "spotly-backend-core:build",
-      "target": "build",
-      "projectName": "spotly-backend-core",
-      "hash": "17783741643337775911",
-      "startTime": "2025-11-23T13:50:37.642Z",
-      "endTime": "2025-11-23T13:50:38.470Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     }
   ]
