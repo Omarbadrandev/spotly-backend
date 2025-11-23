@@ -709,3 +709,13 @@ RunEnd duration: 210
 [NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Handled json message POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
 [NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Time taken for 'postTasksExecution' 0.10266699999920093ms
 [NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.828Z - Closed a connection. Number of open connections: 5
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - [WATCHER]: .gitignore was modified
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - [WATCHER]: Processing file changes in outputs
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - Closed a connection. Number of open connections: 4
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - Closed a connection. Number of open connections: 3
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - Closed a connection. Number of open connections: 2
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - Closed a connection. Number of open connections: 1
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - Closed a connection. Number of open connections: 0
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.899Z - [WATCHER]: Stopping the watcher for /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend (sources)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.900Z - [WATCHER]: Stopping the watcher for /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend (outputs)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:52:33.901Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
