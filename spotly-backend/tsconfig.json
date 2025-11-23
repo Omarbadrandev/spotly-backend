@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/spotly-backend"
+    },
+    {
+      "path": "./packages/spotly-backend-core"
     }
   ]
 }

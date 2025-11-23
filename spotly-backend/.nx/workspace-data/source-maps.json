@@ -890,5 +890,411 @@
       "apps/spotly-backend-e2e/package.json",
       "nx/core/package-json"
     ]
+  },
+  "packages/spotly-backend-core": {
+    "root": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "packages/spotly-backend-core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.continuous": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "packages/spotly-backend-core/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.executor": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.options": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.metadata": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.options.script": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.metadata.scriptContent": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:migrate.metadata.runCommand": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.executor": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.options": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.metadata": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.options.script": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.metadata.scriptContent": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:studio.metadata.runCommand": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.executor": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.options": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.metadata": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.options.script": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.metadata.scriptContent": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:format.metadata.runCommand": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.executor": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.options": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.metadata": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.options.script": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.metadata.scriptContent": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prisma:validate.metadata.runCommand": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/spotly-backend-core/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.prisma:generate": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.prisma:generate.executor": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.prisma:generate.options": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.prisma:generate.options.command": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.prisma:generate.options.cwd": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.packageJson": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "packages/spotly-backend-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
   }
 }

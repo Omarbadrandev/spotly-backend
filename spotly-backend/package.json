@@ -3,7 +3,15 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "build": "nx run-many -t build",
+    "test": "nx run-many -t test",
+    "lint": "nx run-many -t lint",
+    "typecheck": "nx run-many -t typecheck",
+    "serve": "nx serve spotly-backend",
+    "prisma:generate": "nx run @spotly-backend/core:prisma:generate",
+    "prisma:migrate": "pnpm --filter @spotly-backend/core prisma migrate dev",
+    "prisma:studio": "pnpm --filter @spotly-backend/core prisma studio"
   },
   "private": true,
   "dependencies": {

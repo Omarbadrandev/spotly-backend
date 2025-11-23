@@ -1,0 +1,711 @@
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.862Z - Started listening on: /private/var/folders/gf/g54bj7_17f92ht5my2jxzlcw0000gn/T/b6e783a0479d4118c6c2/d.sock
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.864Z - [WATCHER]: Subscribed to changes within: /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend (native)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.865Z - Established a connection. Number of open connections: 1
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.866Z - Established a connection. Number of open connections: 2
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.866Z - Closed a connection. Number of open connections: 1
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.871Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.871Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.871Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 76400 code loading' 4.030208999999999
+Time for 'plugin worker 76399 code loading' 8.344667000000001
+Time for 'plugin worker 76403 code loading' 4.252958
+Time for 'plugin worker 76404 code loading' 6.903582999999998
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:20.926Z - [WATCHER]: Processing file changes in outputs
+Time for 'plugin worker 76401 code loading' 3.7827090000000005
+Time for 'plugin worker 76402 code loading' 5.6753750000000025
+Time for 'plugin worker 76406 code loading' 2.3932499999999983
+Time for 'plugin worker 76405 code loading' 7.0894580000000005
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.104Z - Time taken for 'Load Nx Plugin: /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 231.88625000000002ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.137Z - Time taken for 'Load Nx Plugin: /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules/nx/src/plugins/js' 265.763209ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.146Z - Time taken for 'loadDefaultNxPlugins' 274.305916ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.191Z - Time taken for 'Load Nx Plugin: @nx/docker' 316.208042ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.404Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 531.7735ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.440Z - Time taken for 'Load Nx Plugin: @nx/jest/plugin' 565.406084ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.622Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 747.4293749999999ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.629Z - [REQUEST]: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.629Z - [REQUEST]: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.631Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.635Z - Time taken for 'loadSpecifiedNxPlugins' 755.933167ms
+Time for 'nx/core/project-json:createNodes' 0.6927080000000387
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Established a connection. Number of open connections: 2
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Established a connection. Number of open connections: 3
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Closed a connection. Number of open connections: 2
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Established a connection. Number of open connections: 3
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Closed a connection. Number of open connections: 2
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Established a connection. Number of open connections: 3
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Established a connection. Number of open connections: 4
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.638Z - Closed a connection. Number of open connections: 3
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.641Z - Established a connection. Number of open connections: 4
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.646Z - Established a connection. Number of open connections: 5
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.647Z - Established a connection. Number of open connections: 6
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.647Z - Closed a connection. Number of open connections: 5
+Time for 'daemon-message-serialization-GLOB' 0.15850000000000364
+Time for 'daemon-message-serialization-HASH_GLOB' 0.10675000000003365
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.10845799999992778
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.655Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.655Z - Received json message of type GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Serializing response for GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Responding to GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Handled json message GLOB. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.656Z - Received json message of type HASH_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.657Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.657Z - Responding to HASH_GLOB message
+Time for 'GLOB round trip' 3.269625000000019
+Time for 'deserialize daemon response - GLOB' 0.14220899999997982
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.015125000000011823
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.12804100000005292
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.657Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.658Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.659Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.659Z - Received raw message of length 70
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.659Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.661Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.661Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.661Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.661Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.662Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.662Z - Received raw message of length 459
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.662Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.666Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.671Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.671Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.671Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.671Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:21.671Z - Handled json message HASH_GLOB. Handling time: 5. Response time: 0.
+Time for '@nx/docker:createNodes' 50.49358300000006
+Time for 'HASH_MULTI_GLOB round trip' 8.650083999999993
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.05012499999997999
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 95.048584
+Time for '@nx/js/typescript:createNodes' 183.867125
+Time for 'HASH_MULTI_GLOB round trip' 9.276041999999961
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.020249999999919055
+Time for 'nx/core/package-json:createNodes' 269.05558299999996
+Time for '@nx/webpack/plugin:createNodes' 330.0067090000001
+Time for 'HASH_GLOB round trip' 6.19116699999995
+Time for 'deserialize daemon response - HASH_GLOB' 0.04933399999993071
+Time for '@nx/eslint/plugin:createNodes' 813.668334
+Time for '@nx/jest/plugin:createNodes' 914.636125
+Time for 'HASH_MULTI_GLOB round trip' 13.903374999999983
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.05270800000005238
+(node:76405) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.628Z - Time taken for 'build-project-configs' 927.832958ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.647Z - Time taken for '@nx/js/typescript:createDependencies' 74.04562499999997ms
+Time for 'build typescript dependencies' 17.869709000000057
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.674Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.675Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.680Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.681Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.681Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.681Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.681Z - Time taken for 'total for creating and serializing project graph' 1809.8319159999999ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.683Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.683Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 1810. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.688Z - Received raw message of length 1664
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.688Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.689Z - Time taken for 'preTasksExecution' 0.2827500000000782ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.691Z - Received raw message of length 77
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.691Z - Received json message of type GET_SYNC_GENERATOR_CHANGES
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.691Z - [SYNC]: get sync generators changes on demand ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.691Z - [SYNC]: clearing scheduled run
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.691Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.694Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.695Z - [SYNC]: @nx/js:typescript-sync already scheduled or not cached, running it now
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.695Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.818Z - Time taken for 'write cache' 3.0357919999999012ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.819Z - Established a connection. Number of open connections: 6
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.823Z - Time taken for 'daemon-message-serialization-REQUEST_PROJECT_GRAPH' 0.10654199999999037ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.824Z - Established a connection. Number of open connections: 7
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.824Z - Closed a connection. Number of open connections: 6
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.827Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.827Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.827Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.827Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.831Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.832Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.832Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.832Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.832Z - Time taken for 'total for creating and serializing project graph' 4.278792000000067ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.833Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.833Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 5. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.884Z - Time taken for 'create-project-graph-async' 17.253042000000278ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.918Z - [SYNC]: @nx/js:typescript-sync changes: tsconfig.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.918Z - Serializing response for GET_SYNC_GENERATOR_CHANGES message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.918Z - Responding to GET_SYNC_GENERATOR_CHANGES message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.918Z - [REQUEST]: Responding to the client. handleGetSyncGeneratorChanges
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.919Z - Done responding to the client handleGetSyncGeneratorChanges
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.919Z - Handled json message GET_SYNC_GENERATOR_CHANGES. Handling time: 227. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:22.919Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 223.59829200000013ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.103Z - Received raw message of length 86
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.104Z - Received json message of type CLEAR_CACHED_SYNC_GENERATOR_CHANGES
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.105Z - [SYNC]: flush sync generators changes ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.105Z - [SYNC]: get sync generators changes on demand ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.105Z - [SYNC]: @nx/js:typescript-sync not scheduled and has cached result, returning cached result
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - Serializing response for CLEAR_CACHED_SYNC_GENERATOR_CHANGES message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - Responding to CLEAR_CACHED_SYNC_GENERATOR_CHANGES message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - [REQUEST]: Responding to the client. handleFlushSyncGeneratorChangesToDisk
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - Done responding to the client handleFlushSyncGeneratorChangesToDisk
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - Handled json message CLEAR_CACHED_SYNC_GENERATOR_CHANGES. Handling time: 3. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.107Z - Time taken for 'flush sync generator changes to disk' 1.4424999999991996ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - Recomputing project graph because of 1 updated and 0 deleted files.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - [REQUEST]: tsconfig.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.108Z - [REQUEST]: 
+Time for 'daemon-message-serialization-HASH_GLOB' 0.023083000000042375
+Time for 'daemon-message-serialization-GLOB' 0.016125000000101863
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.118Z - Time taken for 'hash changed files from watcher' 0.15045800000007148ms
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.01995800000076997
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.119Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.119Z - Received json message of type HASH_GLOB
+Time for 'nx/core/project-json:createNodes' 0.29958299999998417
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.03558300000076997
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.122Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.122Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.122Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.122Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.122Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 0.
+Time for 'nx/core/package-json:createNodes' 3.4651250000006257
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.123Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.123Z - Received json message of type GLOB
+Time for '@nx/webpack/plugin:createNodes' 11.1752919999999
+Time for '@nx/js/typescript:createNodes' 11.34637499999917
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.124Z - Serializing response for GLOB message in json mode
+Time for 'HASH_GLOB round trip' 6.9583330000004935
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.125Z - Responding to GLOB message
+Time for 'deserialize daemon response - HASH_GLOB' 0.15745799999967858
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.125Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.125Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.125Z - Handled json message GLOB. Handling time: 0. Response time: 1.
+Time for 'GLOB round trip' 7.951249999998254
+Time for 'deserialize daemon response - GLOB' 0.02191599999969185
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Received raw message of length 70
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.017082999998820014
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.126Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.127Z - Received raw message of length 459
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.127Z - Received json message of type HASH_MULTI_GLOB
+Time for '@nx/docker:createNodes' 10.040957999999591
+Time for 'HASH_MULTI_GLOB round trip' 8.928583000000799
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.021957999999358435
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.129Z - Received json message of type HASH_MULTI_GLOB
+Time for 'HASH_MULTI_GLOB round trip' 3.484875000000102
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.02124999999978172
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.130Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.130Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.130Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.130Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.130Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.523415999999997
+Time for '@nx/jest/plugin:createNodes' 13.685457999999926
+Time for 'HASH_MULTI_GLOB round trip' 8.836042000000816
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.022125000001324224
+Time for '@nx/eslint/plugin:createNodes' 38.55804200000057
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.162Z - Time taken for 'build-project-configs' 44.37241600000016ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.165Z - Time taken for '@nx/js/typescript:createDependencies' 5.19170800000029ms
+Time for 'build typescript dependencies' 0.017832999999882304
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.173Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.173Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.173Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.173Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.176Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.176Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.176Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.176Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.177Z - Time taken for 'total for creating and serializing project graph' 68.2669590000005ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.177Z - [WATCHER]: tsconfig.json was modified
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.177Z - [WATCHER]: Processing file changes in outputs
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.178Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.178Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 68. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - Received raw message of length 7320
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - Received json message of type HASH_TASKS
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - Recomputing project graph because of 1 updated and 0 deleted files.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - [REQUEST]: tsconfig.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.253Z - [REQUEST]: 
+Time for 'daemon-message-serialization-HASH_GLOB' 0.009834000000410015
+Time for 'daemon-message-serialization-GLOB' 0.006208000000697211
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.00854099999924074
+Time for '@nx/js/typescript:createNodes' 2.333875000000262
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.257Z - Time taken for 'hash changed files from watcher' 0.0615830000006099ms
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.009624999998777639
+Time for 'nx/core/package-json:createNodes' 1.0594169999985752
+Time for 'nx/core/project-json:createNodes' 0.3077919999996084
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Received json message of type HASH_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.260Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Received json message of type GLOB
+Time for '@nx/webpack/plugin:createNodes' 5.896042000000307
+Time for 'HASH_GLOB round trip' 4.574791999999434
+Time for 'deserialize daemon response - HASH_GLOB' 0.016499999999723514
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Serializing response for GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Responding to GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Handled json message GLOB. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Received raw message of length 70
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.261Z - Received json message of type HASH_MULTI_GLOB
+Time for 'GLOB round trip' 4.962792000000263
+Time for 'deserialize daemon response - GLOB' 0.01712500000030559
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.010374999999839929
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 3.4835410000014235
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Received raw message of length 459
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.262Z - Received json message of type HASH_MULTI_GLOB
+Time for '@nx/docker:createNodes' 5.753957999999329
+Time for 'HASH_MULTI_GLOB round trip' 5.151416999999128
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.015333999999711523
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.263Z - Received json message of type HASH_MULTI_GLOB
+Time for '@nx/eslint/plugin:createNodes' 7.803625000000466
+Time for 'HASH_MULTI_GLOB round trip' 1.8522910000010597
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.264Z - Serializing response for HASH_GLOB message in json mode
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.0139580000013666
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.264Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.264Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.264Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.264Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+Time for '@nx/jest/plugin:createNodes' 7.701790999999503
+Time for 'HASH_MULTI_GLOB round trip' 5.950082999999722
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.01224999999976717
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.271Z - Time taken for 'build-project-configs' 12.706707999999708ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.273Z - Time taken for '@nx/js/typescript:createDependencies' 3.9155829999999696ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.273Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.275Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.275Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.275Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.275Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.275Z - Time taken for 'daemon-message-serialization-REQUEST_PROJECT_GRAPH' 0.0057500000002619345ms
+Time for 'build typescript dependencies' 0.010249999999359716
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.280Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.280Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.280Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.280Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.283Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.285Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 2.241291ms - processed 3 tasks (setup: 1.881458ms, parallel_planning: 358µs)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "10522379923387884116" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "10522379923387884116" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "17075559561268829007" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "15766712738886232622"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "17075559561268829007" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "15766712738886232622"
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key=".github/workflows/ci.yml"}: Adding "14969549747948095024" (".github/workflows/ci.yml") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key=".github/workflows/ci.yml"}: Hash Value: "9446103657857960809"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 3.821041ms - processed 3 plans (setup: 278.416µs, hashing: 3.541583ms, assembly: 1.665625ms)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.297Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.298Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.298Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.298Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.299Z - Responding to HASH_TASKS message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.299Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.299Z - Time taken for 'total execution time for createProjectGraph()' 10.657791999999972ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.299Z - Done responding to the client handleHashTasks
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.299Z - Handled json message HASH_TASKS. Handling time: 45. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.302Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.302Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 22. Response time: 5.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.308Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.311Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 34.460917000000336ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.481Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.482Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.482Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.482Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.482Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.485Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.485Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.485Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.485Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.486Z - Time taken for 'daemon-message-serialization-REQUEST_PROJECT_GRAPH' 0.026707999999416643ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.487Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.487Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.491Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:31.491Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 10.423542000000452ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.795Z - Received raw message of length 223
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.795Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.810Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.810Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.810Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.810Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:34.810Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 15. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.416Z - Received raw message of length 107
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.416Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.419Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.419Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.419Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.419Z - Done responding to the client recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.419Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.463Z - [WATCHER]: 4 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.464Z - [WATCHER]: Processing file changes in outputs
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.564Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.565Z - [REQUEST]: apps/spotly-backend/dist/main.js,apps/spotly-backend/dist/package.json,apps/spotly-backend/dist/assets/.gitkeep,apps/spotly-backend/dist/pnpm-lock.yaml
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.565Z - [REQUEST]: 
+Time for 'daemon-message-serialization-GLOB' 0.008208999999624211
+Time for 'daemon-message-serialization-HASH_GLOB' 0.028707999999824096
+Time for 'nx/core/project-json:createNodes' 0.14037499999903957
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.569Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.569Z - Received json message of type GLOB
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.1681669999998121
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.008707999999387539
+Time for 'nx/core/package-json:createNodes' 1.5435830000005808
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.570Z - Serializing response for GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.570Z - Responding to GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.570Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.570Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.570Z - Handled json message GLOB. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Received json message of type HASH_GLOB
+Time for 'GLOB round trip' 2.5673750000005384
+Time for 'deserialize daemon response - GLOB' 0.015917000000627013
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.013666999999259133
+Time for '@nx/js/typescript:createNodes' 4.221707999999126
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Handled json message HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.571Z - Time taken for 'hash changed files from watcher' 0.3351669999992737ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.572Z - Received raw message of length 551
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.572Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Received raw message of length 70
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.573Z - Received json message of type HASH_MULTI_GLOB
+Time for '@nx/webpack/plugin:createNodes' 6.348207999999431
+Time for 'HASH_GLOB round trip' 3.6848339999996824
+Time for 'deserialize daemon response - HASH_GLOB' 0.015292000000044936
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+Time for 'HASH_MULTI_GLOB round trip' 2.3387500000008004
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.015833999999813386
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.574Z - Received json message of type HASH_MULTI_GLOB
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 5.3289999999997235
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.575Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.575Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.575Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.575Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.575Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+Time for '@nx/jest/plugin:createNodes' 11.694708000000901
+Time for 'HASH_MULTI_GLOB round trip' 5.670665999999983
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.029457999999067397
+Time for '@nx/docker:createNodes' 23.902500000000146
+Time for 'HASH_MULTI_GLOB round trip' 4.9904590000005555
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.030000000000654836
+Time for '@nx/eslint/plugin:createNodes' 25.750291999998808
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.599Z - Time taken for 'build-project-configs' 28.051540999998906ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.601Z - Time taken for '@nx/js/typescript:createDependencies' 4.393624999998792ms
+Time for 'build typescript dependencies' 1.856459000000541
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.610Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.610Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.610Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.610Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:36.610Z - Time taken for 'total execution time for createProjectGraph()' 13.801332999999431ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.011Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.012Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.012Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.013Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.013Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.016Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.016Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.016Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.016Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.017Z - Time taken for 'daemon-message-serialization-REQUEST_PROJECT_GRAPH' 0.007666999999855761ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.018Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.018Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 4. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.023Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.023Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 11.24841699999888ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.641Z - Received raw message of length 82
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.641Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.642Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.642Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.642Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.642Z - Done responding to the client recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:37.642Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.055Z - [WATCHER]: tmp/packages/spotly-backend-core/build/tsconfig.generated.84242086-bb1c-4df8-95d6-28aa4cec53c5.json was created or restored
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.055Z - [WATCHER]: Processing file changes in outputs
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.156Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.156Z - [REQUEST]: tmp/packages/spotly-backend-core/build/tsconfig.generated.84242086-bb1c-4df8-95d6-28aa4cec53c5.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.156Z - [REQUEST]: 
+Time for 'daemon-message-serialization-HASH_GLOB' 0.011791000000812346
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.166Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.166Z - Received json message of type HASH_GLOB
+Time for 'daemon-message-serialization-GLOB' 0.015332999999372987
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.017708999999740627
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.169Z - Time taken for 'hash changed files from watcher' 0.09862499999871943ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.170Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.170Z - Received json message of type GLOB
+Time for 'nx/core/project-json:createNodes' 1.053874999997788
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.010999999998603016
+Time for '@nx/webpack/plugin:createNodes' 7.789541999998619
+Time for 'HASH_GLOB round trip' 6.464917000001151
+Time for 'deserialize daemon response - HASH_GLOB' 0.06429200000275159
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.171Z - Serializing response for GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.171Z - Responding to GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.171Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.171Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.171Z - Handled json message GLOB. Handling time: 1. Response time: 0.
+Time for '@nx/js/typescript:createNodes' 8.203833999999915
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.172Z - Received raw message of length 70
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.172Z - Received json message of type HASH_MULTI_GLOB
+Time for 'GLOB round trip' 5.464874999997846
+Time for 'deserialize daemon response - GLOB' 0.03541599999880418
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.034917000000859844
+Time for 'nx/core/package-json:createNodes' 5.755415999999968
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Received raw message of length 551
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.175Z - Received json message of type HASH_MULTI_GLOB
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 5.250209000001632
+Time for '@nx/docker:createNodes' 9.580957999998645
+Time for 'HASH_MULTI_GLOB round trip' 8.330708999998024
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.03408399999898393
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.181Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.182Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.182Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.182Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.182Z - Handled json message HASH_GLOB. Handling time: 6. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.183Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.183Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.185Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.185Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.185Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.185Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.185Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 0.
+Time for '@nx/jest/plugin:createNodes' 19.425374999998894
+Time for 'HASH_MULTI_GLOB round trip' 14.67345800000112
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.01416600000084145
+Time for 'HASH_MULTI_GLOB round trip' 11.657665999999153
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.04445800000030431
+Time for '@nx/eslint/plugin:createNodes' 53.75225000000137
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.228Z - Time taken for 'build-project-configs' 62.78029199999946ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.235Z - Time taken for '@nx/js/typescript:createDependencies' 8.803624999996828ms
+Time for 'build typescript dependencies' 0.013875000000552973
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.243Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.244Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.244Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.244Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.244Z - Time taken for 'total execution time for createProjectGraph()' 18.07087500000125ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.471Z - Received raw message of length 117
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.471Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.474Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.474Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.475Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.475Z - Done responding to the client recordOutputsHash
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.475Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.478Z - Received raw message of length 546
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.478Z - Received json message of type RECORD_TASK_RUNS
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.481Z - Serializing response for RECORD_TASK_RUNS message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.481Z - Responding to RECORD_TASK_RUNS message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.481Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.481Z - Done responding to the client handleRecordTaskRuns
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.481Z - Handled json message RECORD_TASK_RUNS. Handling time: 3. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.483Z - Received raw message of length 105
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.483Z - Received json message of type GET_FLAKY_TASKS
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.483Z - Serializing response for GET_FLAKY_TASKS message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.483Z - Responding to GET_FLAKY_TASKS message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.484Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.484Z - Done responding to the client handleGetFlakyTasks
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.484Z - Handled json message GET_FLAKY_TASKS. Handling time: 0. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.499Z - [WATCHER]: 13 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.499Z - [WATCHER]: Processing file changes in outputs
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.605Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.605Z - [REQUEST]: dist/packages/spotly-backend-core/src/index.d.ts.map,dist/packages/spotly-backend-core/src/services/index.d.ts.map,dist/packages/spotly-backend-core/src/core/index.d.ts,dist/packages/spotly-backend-core/src/core/index.d.ts.map,dist/packages/spotly-backend-core/src/core/index.js,dist/packages/spotly-backend-core/src/services/index.d.ts,dist/packages/spotly-backend-core/src/adapters/index.js,dist/packages/spotly-backend-core/src/adapters/index.d.ts,dist/packages/spotly-backend-core/src/index.d.ts,dist/packages/spotly-backend-core/package.json,dist/packages/spotly-backend-core/src/adapters/index.d.ts.map,dist/packages/spotly-backend-core/src/services/index.js,dist/packages/spotly-backend-core/src/index.js,dist/packages/spotly-backend-core/README.md
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.605Z - [REQUEST]: tmp/packages/spotly-backend-core/build/tsconfig.generated.84242086-bb1c-4df8-95d6-28aa4cec53c5.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.616Z - Time taken for 'hash changed files from watcher' 5.472332999997889ms
+Time for 'daemon-message-serialization-HASH_GLOB' 0.0236670000012964
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.620Z - Received raw message of length 74
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.620Z - Received json message of type HASH_GLOB
+Time for 'nx/core/project-json:createNodes' 0.12250000000130967
+Time for 'daemon-message-serialization-GLOB' 0.012375000002066372
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.010249999999359716
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.02200000000084401
+Time for 'nx/core/package-json:createNodes' 2.927916999997251
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.624Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.624Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.624Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.624Z - Done responding to the client handleHashGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.624Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 1.
+Time for '@nx/js/typescript:createNodes' 8.662499999998545
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.625Z - Received raw message of length 73
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.625Z - Received json message of type GLOB
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 4.927708999999595
+Time for '@nx/webpack/plugin:createNodes' 11.203417000000627
+Time for 'HASH_GLOB round trip' 8.650999999998021
+Time for 'deserialize daemon response - HASH_GLOB' 0.02091600000130711
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.627Z - Serializing response for GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.627Z - Responding to GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.627Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.627Z - Done responding to the client handleGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.627Z - Handled json message GLOB. Handling time: 2. Response time: 0.
+Time for 'GLOB round trip' 8.64012499999808
+Time for 'deserialize daemon response - GLOB' 0.033416999998735264
+Time for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.021791000002849614
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.628Z - Received raw message of length 70
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.628Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.636Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.636Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.636Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.636Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.636Z - Handled json message HASH_GLOB. Handling time: 8. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.637Z - Received raw message of length 108
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.637Z - Received json message of type HASH_MULTI_GLOB
+Time for '@nx/docker:createNodes' 18.544458000000304
+Time for 'HASH_MULTI_GLOB round trip' 15.819041999999172
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.04650000000037835
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.638Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.638Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.638Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.638Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.638Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.639Z - Received raw message of length 889542
+Time for '@nx/jest/plugin:createNodes' 21.02179199999955
+Time for 'HASH_MULTI_GLOB round trip' 16.18987500000003
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.05933300000106101
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.643Z - Received json message of type PROCESS_IN_BACKGROUND
+Was not able to require.resolve module nx/src/utils/app-root from the following paths: /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules/nx/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules. This may be expected.
+Was not able to require.resolve module nx/src/utils/app-root from the following paths: /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules/nx/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/nx@22.1.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1_c98dfc9a8c24df05550316cce008caa9/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules/.pnpm/node_modules,/Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/node_modules. This may be expected.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.746Z - Serializing response for PROCESS_IN_BACKGROUND message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.746Z - Responding to PROCESS_IN_BACKGROUND message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.746Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.747Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.747Z - Handled json message PROCESS_IN_BACKGROUND. Handling time: 103. Response time: 1.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.747Z - Received raw message of length 661
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.747Z - Received json message of type HASH_MULTI_GLOB
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.759Z - Serializing response for HASH_GLOB message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.759Z - Responding to HASH_GLOB message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.759Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.759Z - Done responding to the client handleHashMultiGlob
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.759Z - Handled json message HASH_GLOB. Handling time: 12. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.760Z - Uploading file artifacts
+
+Time for 'HASH_MULTI_GLOB round trip' 131.45866699999897
+Time for 'deserialize daemon response - HASH_MULTI_GLOB' 0.02345900000000256
+ NX   Nx Cloud: Storing 1721591918284435004 with storeV2
+
+
+ NX   Nx Cloud: Storing 1721591918284435004 with storeV2
+
+
+ NX   Nx Cloud: Storing 11558907721535713069 with storeV2
+
+
+ NX   Nx Cloud: Storing 17783741643337775911 with storeV2
+
+Time for '@nx/eslint/plugin:createNodes' 197.0627910000003
+(node:76398) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.877Z - Time taken for 'build-project-configs' 253.8532090000008ms
+Time for 'build typescript dependencies' 0.016625000000203727
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.890Z - Time taken for '@nx/js/typescript:createDependencies' 18.697917000001326ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.903Z - [SYNC]: collect registered sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.903Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.903Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.903Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:38.903Z - Time taken for 'total execution time for createProjectGraph()' 32.62199999999939ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.044Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.045Z - Received raw message of length 32
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.045Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.045Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.046Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.049Z - Wrote project graph cache to /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/workspace-data/project-graph.json
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.049Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.049Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.049Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.050Z - Time taken for 'daemon-message-serialization-REQUEST_PROJECT_GRAPH' 0.007625000002008164ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.051Z - Done responding to the client project-graph
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.051Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 4. Response time: 2.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.056Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.056Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 12.189417000001413ms
+
+ NX   Nx Cloud: Stored 17783741643337775911 /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/cache/terminalOutputs/17783741643337775911
+
+
+ NX   Nx Cloud: Stored 1721591918284435004 /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/cache/terminalOutputs/1721591918284435004
+
+
+ NX   Nx Cloud: Stored 11558907721535713069 /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/cache/terminalOutputs/11558907721535713069
+
+
+ NX   Nx Cloud: Stored 1721591918284435004 /Users/omarbadran/Desktop/personal porjects/spotly/spotly-backend/spotly-backend/.nx/cache/1721591918284435004
+
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.179Z - Done uploading file artifacts
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.179Z - Sending EndRun request
+[Nx Cloud Debug] Attempting to acquire filesystem lock with path:  /var/folders/gf/g54bj7_17f92ht5my2jxzlcw0000gn/T/client-instance-id.lock
+[Nx Cloud Debug] Failed to create folder lock at path: /var/folders/gf/g54bj7_17f92ht5my2jxzlcw0000gn/T/client-instance-id.lock
+[Nx Cloud] Unable to detect a VCS context from the environment.
+
+ NX   RunEnd. Completed tasks
+
+
+[
+  "spotly-backend-core:prisma:generate",
+  "@spotly-backend/spotly-backend:build",
+  "spotly-backend-core:build"
+]
+
+RunEnd duration: 210
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:39.391Z - Done sending EndRun request
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.821Z - Received raw message of length 109644
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Received json message of type POST_TASKS_EXECUTION
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Serializing response for POST_TASKS_EXECUTION message in json mode
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Responding to POST_TASKS_EXECUTION message
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Done responding to the client handleRunPostTasksExecution
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Handled json message POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.822Z - Time taken for 'postTasksExecution' 0.10266699999920093ms
+[NX v22.1.1 Daemon Server] - 2025-11-23T13:50:41.828Z - Closed a connection. Number of open connections: 5

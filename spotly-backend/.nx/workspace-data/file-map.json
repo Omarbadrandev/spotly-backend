@@ -54,15 +54,292 @@
     }
   ],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "tsconfig.json",
+        "hash": "3450640108950423035"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/core/index.d.ts",
+        "hash": "2674241503376658580"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8642773533040547993"
+      },
+      {
+        "file": "package.json",
+        "hash": "16894349832590592667"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/README.md",
+        "hash": "4541503780376027662"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "14969549747948095024"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/services/index.js",
+        "hash": "1740915220415697368"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "14236175072743533737"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/services/index.d.ts.map",
+        "hash": "16561254903396454305"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "2740239500921152700"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10522379923387884116"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "13737983450217408137"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/core/index.d.ts.map",
+        "hash": "3107801699992191773"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/adapters/index.d.ts",
+        "hash": "2674241503376658580"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/adapters/index.d.ts.map",
+        "hash": "1556229704204167702"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/index.js",
+        "hash": "16129633300314475808"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17075559561268829007"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "7952676282655520759"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/core/index.js",
+        "hash": "5253374550700037209"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "6409468016316209957"
+      },
+      {
+        "file": "README.md",
+        "hash": "9616586231630435318"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/package.json",
+        "hash": "350990363086764423"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/adapters/index.js",
+        "hash": "13923596643641378537"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/index.d.ts",
+        "hash": "7064909971738084107"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/index.d.ts.map",
+        "hash": "1652234051194400062"
+      },
+      {
+        "file": "packages/index.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "17780125754154163412"
+      },
+      {
+        "file": "dist/packages/spotly-backend-core/src/services/index.d.ts",
+        "hash": "2674241503376658580"
+      }
+    ],
     "projectFileMap": {
+      "@spotly-backend/spotly-backend-e2e": [
+        {
+          "file": "apps/spotly-backend-e2e/.spec.swcrc",
+          "hash": "18201067170784284381"
+        },
+        {
+          "file": "apps/spotly-backend-e2e/eslint.config.mjs",
+          "hash": "1965792974734046140"
+        },
+        {
+          "file": "apps/spotly-backend-e2e/jest.config.cts",
+          "hash": "4838297490690334289"
+        },
+        {
+          "file": "apps/spotly-backend-e2e/package.json",
+          "hash": "9047299312479169806"
+        },
+        {
+          "file": "apps/spotly-backend-e2e/src/spotly-backend/spotly-backend.spec.ts",
+          "hash": "4747019362565984448",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/spotly-backend-e2e/src/support/global-setup.ts",
+          "hash": "3444053551545844372",
+          "deps": [
+            "npm:@nx/node"
+          ]
+        },
+        {
+          "file": "apps/spotly-backend-e2e/src/support/global-teardown.ts",
+          "hash": "18176614999450167852",
+          "deps": [
+            "npm:@nx/node"
+          ]
+        },
+        {
+          "file": "apps/spotly-backend-e2e/src/support/test-setup.ts",
+          "hash": "11749744855473391997",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/spotly-backend-e2e/tsconfig.json",
+          "hash": "233719706391176204"
+        }
+      ],
+      "spotly-backend-core": [
+        {
+          "file": "packages/spotly-backend-core/.gitignore",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/spotly-backend-core/.spec.swcrc",
+          "hash": "4915614977802134086"
+        },
+        {
+          "file": "packages/spotly-backend-core/README.md",
+          "hash": "4541503780376027662"
+        },
+        {
+          "file": "packages/spotly-backend-core/jest.config.ts",
+          "hash": "16950691078947569196",
+          "deps": [
+            "npm:jest"
+          ]
+        },
+        {
+          "file": "packages/spotly-backend-core/package.json",
+          "hash": "9777689017308825062",
+          "deps": [
+            "npm:prisma",
+            "npm:@nestjs/common",
+            "npm:@prisma/client",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "packages/spotly-backend-core/prisma/schema.prisma",
+          "hash": "7879434642460535305"
+        },
+        {
+          "file": "packages/spotly-backend-core/project.json",
+          "hash": "7403520378635648883"
+        },
+        {
+          "file": "packages/spotly-backend-core/src/adapters/index.ts",
+          "hash": "16780635336486651928"
+        },
+        {
+          "file": "packages/spotly-backend-core/src/core/index.ts",
+          "hash": "14282441652162936537"
+        },
+        {
+          "file": "packages/spotly-backend-core/src/index.ts",
+          "hash": "6369581629465930707"
+        },
+        {
+          "file": "packages/spotly-backend-core/src/services/index.ts",
+          "hash": "11720439380950942985"
+        },
+        {
+          "file": "packages/spotly-backend-core/tsconfig.json",
+          "hash": "2149741760934977486"
+        },
+        {
+          "file": "packages/spotly-backend-core/tsconfig.lib.json",
+          "hash": "15981622164411038734"
+        }
+      ],
       "@spotly-backend/spotly-backend": [
+        {
+          "file": "apps/spotly-backend/.gitignore",
+          "hash": "5117802759895323416"
+        },
         {
           "file": "apps/spotly-backend/.spec.swcrc",
           "hash": "18201067170784284381"
         },
         {
           "file": "apps/spotly-backend/Dockerfile",
-          "hash": "17829503622366897725"
+          "hash": "16116506313863641775"
+        },
+        {
+          "file": "apps/spotly-backend/dist/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotly-backend/dist/main.js",
+          "hash": "17374038041288222950",
+          "deps": [
+            [
+              "npm:@nestjs/common",
+              "dynamic"
+            ],
+            [
+              "npm:@nestjs/core",
+              "dynamic"
+            ],
+            [
+              "npm:tslib",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/spotly-backend/dist/package.json",
+          "hash": "1545373107814387537"
+        },
+        {
+          "file": "apps/spotly-backend/dist/pnpm-lock.yaml",
+          "hash": "8723211422612429232"
         },
         {
           "file": "apps/spotly-backend/eslint.config.mjs",
@@ -151,120 +428,8 @@
             "npm:@nx/webpack"
           ]
         }
-      ],
-      "@spotly-backend/spotly-backend-e2e": [
-        {
-          "file": "apps/spotly-backend-e2e/.spec.swcrc",
-          "hash": "18201067170784284381"
-        },
-        {
-          "file": "apps/spotly-backend-e2e/eslint.config.mjs",
-          "hash": "1965792974734046140"
-        },
-        {
-          "file": "apps/spotly-backend-e2e/jest.config.cts",
-          "hash": "4838297490690334289"
-        },
-        {
-          "file": "apps/spotly-backend-e2e/package.json",
-          "hash": "9047299312479169806"
-        },
-        {
-          "file": "apps/spotly-backend-e2e/src/spotly-backend/spotly-backend.spec.ts",
-          "hash": "4747019362565984448",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/spotly-backend-e2e/src/support/global-setup.ts",
-          "hash": "3444053551545844372",
-          "deps": [
-            "npm:@nx/node"
-          ]
-        },
-        {
-          "file": "apps/spotly-backend-e2e/src/support/global-teardown.ts",
-          "hash": "18176614999450167852",
-          "deps": [
-            "npm:@nx/node"
-          ]
-        },
-        {
-          "file": "apps/spotly-backend-e2e/src/support/test-setup.ts",
-          "hash": "11749744855473391997",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/spotly-backend-e2e/tsconfig.json",
-          "hash": "233719706391176204"
-        }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "12386519344850325215"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "6409468016316209957"
-      },
-      {
-        "file": "README.md",
-        "hash": "4069358632351763025"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "7952676282655520759"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "14236175072743533737"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "13737983450217408137"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6703970120451472155"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8470172699145772662"
-      },
-      {
-        "file": "package.json",
-        "hash": "15347433401874379853"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "8642773533040547993"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "18015490331596385048"
-      }
-    ]
+    }
   },
-  "externalNodesHash": "8960027284081161080"
+  "externalNodesHash": "5852564770626910420"
 }
