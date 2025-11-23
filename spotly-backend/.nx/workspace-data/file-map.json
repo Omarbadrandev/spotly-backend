@@ -56,48 +56,52 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "14872766185946208376"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "8642773533040547993"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17075559561268829007"
-      },
-      {
-        "file": "packages/index.ts",
-        "hash": "3244421341483603138"
-      },
-      {
         "file": ".github/workflows/ci.yml",
         "hash": "14969549747948095024"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "13737983450217408137"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "994197051877571044"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "3450640108950423035"
       },
       {
         "file": "jest.config.ts",
         "hash": "14236175072743533737"
       },
       {
-        "file": "README.md",
-        "hash": "9616586231630435318"
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "7952676282655520759"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17075559561268829007"
+      },
+      {
+        "file": "package.json",
+        "hash": "14872766185946208376"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "6409468016316209957"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "17780125754154163412"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3450640108950423035"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "994197051877571044"
+      },
+      {
+        "file": "packages/index.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "pnpm-lock.yaml",
@@ -108,24 +112,20 @@
         "hash": "5443105041930014821"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "17780125754154163412"
-      },
-      {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
       },
       {
-        "file": ".vscode/launch.json",
-        "hash": "6409468016316209957"
+        "file": "jest.preset.js",
+        "hash": "13737983450217408137"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "7952676282655520759"
+        "file": "README.md",
+        "hash": "9616586231630435318"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8642773533040547993"
       }
     ],
     "projectFileMap": {
@@ -314,6 +314,10 @@
           "deps": [
             "npm:@nestjs/common"
           ]
+        },
+        {
+          "file": "apps/spotly-backend/src/app/routes.ts",
+          "hash": "14786457907411154026"
         },
         {
           "file": "apps/spotly-backend/src/assets/.gitkeep",
