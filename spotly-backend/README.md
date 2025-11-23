@@ -6,9 +6,24 @@ Backend service for the Spotly application, providing APIs for authentication, u
 
 This is a monorepo built with [Nx](https://nx.dev/) and [NestJS](https://nestjs.com/), organized as follows:
 
-- **`apps/spotly-backend`** - Main NestJS application
+- **`apps/spotly-backend`** - Main NestJS application (depends on NestJS)
 - **`apps/spotly-backend-e2e`** - End-to-end tests
-- **`packages/spotly-backend-core`** - Shared core library with business logic
+- **`packages/spotly-backend-core`** - Shared core library with business logic (framework-agnostic)
+
+### Package Dependencies
+
+**Core Package (`@spotly-backend/core`):**
+- ✅ **Framework-agnostic** - No NestJS dependencies
+- ✅ Can be used with any framework (NestJS, Express, Fastify, etc.)
+- ✅ Contains pure TypeScript business logic, domain entities, and database adapters
+- ✅ Only depends on `@prisma/client` for database access (when implemented)
+
+**App Package (`@spotly-backend/spotly-backend`):**
+- ✅ Depends on NestJS (`@nestjs/common`, `@nestjs/core`, etc.)
+- ✅ Wraps core package services with NestJS decorators and modules
+- ✅ Provides HTTP endpoints, middleware, and NestJS-specific features
+
+This separation allows the core business logic to be framework-independent and reusable across different applications or frameworks.
 
 ## 🚀 Getting Started
 

@@ -2,6 +2,17 @@
 
 Core package for Spotly Backend containing shared business logic, database services, and domain entities.
 
+## Framework Independence
+
+**This package is framework-agnostic and does NOT depend on NestJS or any other framework.**
+
+- ✅ **No NestJS dependencies** - Can be used with any framework
+- ✅ **Pure TypeScript** - Contains only business logic and domain entities
+- ✅ **Reusable** - Can be imported into NestJS apps, Express apps, or any Node.js application
+- ✅ **Database-agnostic** - Uses Prisma for database access (framework-independent)
+
+The app layer (`@spotly-backend/spotly-backend`) wraps this core package with NestJS decorators and modules to provide HTTP endpoints and framework-specific features.
+
 ## Structure
 
 ```
