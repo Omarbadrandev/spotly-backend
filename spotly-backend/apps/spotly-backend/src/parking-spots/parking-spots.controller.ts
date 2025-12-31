@@ -1,5 +1,6 @@
 import {
   Controller,
+  Get,
   Post,
   Body,
   HttpCode,
@@ -12,10 +13,12 @@ import {
   ApiResponse,
   ApiBody,
   ApiCreatedResponse,
+  ApiOkResponse,
 } from '@nestjs/swagger';
 import {
   CreateParkingSpotDto,
   ParkingSpotResponseDto,
+  ParkingSpotsListResponseDto,
 } from './parking-spots/parking-spots.dto';
 import { ParkingSpotsApiService } from './parking-spots/parking-spots.service';
 
@@ -47,5 +50,19 @@ export class ParkingSpotsController {
   })
   async create(@Body() createParkingSpotDto: CreateParkingSpotDto) {
     return this.parkingSpotsApiService.createParkingSpot(createParkingSpotDto);
+  }
+
+  @Get()
+  @Version('1')
+  @ApiOperation({
+    summary: 'List all parking spots',
+    description: 'Retrieves a list of all parking spots',
+  })
+  @ApiOkResponse({
+    description: 'Parking spots successfully retrieved',
+    type: ParkingSpotsListResponseDto,
+  })
+  async listParkingSpots() {
+    return this.parkingSpotsApiService.listParkingSpots();
   }
 }

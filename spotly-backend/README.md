@@ -1,168 +1,43 @@
 # Spotly Backend
 
-Backend service for the Spotly application, providing APIs for authentication, user management, data processing, and core business logic.
+Backend service for the Spotly application.
 
-## 🏗️ Architecture
-
-This is a monorepo built with [Nx](https://nx.dev/) and [NestJS](https://nestjs.com/), organized as follows:
-
-- **`apps/spotly-backend`** - Main NestJS application (depends on NestJS)
-- **`apps/spotly-backend-e2e`** - End-to-end tests
-- **`packages/spotly-backend-core`** - Shared core library with business logic (framework-agnostic)
-
-### Package Dependencies
-
-**Core Package (`@spotly-backend/core`):**
-- ✅ **Framework-agnostic** - No NestJS dependencies
-- ✅ Can be used with any framework (NestJS, Express, Fastify, etc.)
-- ✅ Contains pure TypeScript business logic, domain entities, and database adapters
-- ✅ Only depends on `@prisma/client` for database access (when implemented)
-
-**App Package (`@spotly-backend/spotly-backend`):**
-- ✅ Depends on NestJS (`@nestjs/common`, `@nestjs/core`, etc.)
-- ✅ Wraps core package services with NestJS decorators and modules
-- ✅ Provides HTTP endpoints, middleware, and NestJS-specific features
-
-This separation allows the core business logic to be framework-independent and reusable across different applications or frameworks.
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (LTS version recommended)
-- pnpm (managed via corepack)
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
+## Quick Start
 
 ```bash
+# Install dependencies
 pnpm install
+
+# Generate Prisma client
+pnpm run prisma:generate
+
+# Start development server
+pnpm run serve
+
+# Build
+pnpm run build
 ```
 
-### Development
+## Documentation
 
-Start the development server:
+All documentation has been moved to the [`docs/`](./docs/) folder:
 
-```bash
-npx nx serve @spotly-backend/spotly-backend
-```
+- **[Architecture & Structure](./docs/ARCHITECTURE.md)** - System architecture and design patterns
+- **[Main Documentation](./docs/README.md)** - Setup and usage guide
+- **[OpenAPI Generation Guide](./docs/OPENAPI_GENERATION.md)** - How OpenAPI specs are generated
+- **[Core Package Documentation](./docs/core-README.md)** - Core package details
 
-The application will be available at `http://localhost:3000/api`
+## API Documentation
 
-### Building
+When the server is running, visit:
+- **Swagger UI**: http://localhost:3000/api/docs
+- **OpenAPI JSON**: http://localhost:3000/api/docs-json
+- **OpenAPI YAML**: http://localhost:3000/api/docs-yaml
 
-Build the application:
+## Scripts
 
-```bash
-npx nx build @spotly-backend/spotly-backend
-```
+- `pnpm run serve` - Start development server
+- `pnpm run build` - Build all projects
+- `pnpm run prisma:generate` - Generate Prisma client
+- `pnpm run openapi:export` - Export OpenAPI spec (server must be running)
 
-Build all projects:
-
-```bash
-npx nx run-many -t build
-```
-
-## 📦 Package Management
-
-This project uses **pnpm** with workspaces. The workspace configuration is defined in `pnpm-workspace.yaml`.
-
-### Available Scripts
-
-- `pnpm run commit` - Interactive commit using commitizen (conventional commits)
-
-## 🧪 Testing
-
-Run unit tests:
-
-```bash
-npx nx test @spotly-backend/spotly-backend
-```
-
-Run e2e tests:
-
-```bash
-npx nx e2e @spotly-backend/spotly-backend-e2e
-```
-
-Run tests for all projects:
-
-```bash
-npx nx run-many -t test
-```
-
-## 🐳 Docker
-
-Build the Docker image:
-
-```bash
-npx nx docker:build @spotly-backend/spotly-backend
-```
-
-Run the container:
-
-```bash
-npx nx docker:run @spotly-backend/spotly-backend -p 3000:3000
-```
-
-The Dockerfile uses corepack to manage pnpm and is optimized for production builds.
-
-## 🗄️ Database
-
-This project uses [Prisma](https://www.prisma.io/) for database management. The schema is located in `packages/spotly-backend-core/prisma/schema.prisma`.
-
-## 🛠️ Tech Stack
-
-- **Framework**: NestJS 11
-- **Language**: TypeScript 5.9
-- **Build Tool**: Nx 22
-- **Package Manager**: pnpm (via corepack)
-- **Database**: Prisma 7
-- **Testing**: Jest
-- **Linting**: ESLint
-- **Code Formatting**: Prettier
-
-## 📝 Code Quality
-
-- **Linting**: `npx nx lint @spotly-backend/spotly-backend`
-- **Type Checking**: `npx nx typecheck @spotly-backend/spotly-backend`
-- **Formatting**: Prettier is configured
-
-## 🏷️ Commit Convention
-
-This project uses [Conventional Commits](https://www.conventionalcommits.org/) via commitizen. Use:
-
-```bash
-pnpm run commit
-```
-
-This will guide you through creating properly formatted commit messages.
-
-## 📚 Project Structure
-
-```
-spotly-backend/
-├── apps/
-│   ├── spotly-backend/          # Main application
-│   └── spotly-backend-e2e/      # E2E tests
-├── packages/
-│   └── spotly-backend-core/     # Shared core library
-├── nx.json                       # Nx configuration
-├── pnpm-workspace.yaml          # pnpm workspace config
-└── package.json                  # Root package.json
-```
-
-## 🔧 Nx Commands
-
-Common Nx commands:
-
-- `npx nx graph` - Visualize the dependency graph
-- `npx nx affected:test` - Run tests for affected projects
-- `npx nx affected:build` - Build affected projects
-- `npx nx reset` - Clear Nx cache
-
-## 📄 License
-
-MIT

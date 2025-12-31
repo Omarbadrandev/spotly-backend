@@ -1,5 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { CreateParkingSpotDto } from './parking-spots.dto';
+import {
+  CreateParkingSpotDto,
+  ParkingSpotsListResponseDto,
+} from './parking-spots.dto';
 import { ParkingSpotsService_Injectable } from './parking-spots.injectables';
 import { CreateParkingSpotInput } from '@spotly-backend/core';
 
@@ -17,5 +20,9 @@ export class ParkingSpotsApiService {
       longitude: createParkingSpotDto.longitude,
     };
     return this.parkingSpotsService.create(input);
+  }
+
+  async listParkingSpots(): Promise<ParkingSpotsListResponseDto> {
+    return this.parkingSpotsService.list();
   }
 }
