@@ -1,21 +1,14 @@
 {
-  "name": "@spotly-backend/core",
+  "name": "spotly-backend-core",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/spotly-backend-core/src",
   "projectType": "library",
   "tags": [],
   "targets": {
-    "prisma:generate": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "prisma generate --schema=packages/spotly-backend-core/prisma/schema.prisma",
-        "cwd": "{workspaceRoot}"
-      }
-    },
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
-      "dependsOn": ["^build", "prisma:generate"],
+      "dependsOn": ["^build"],
       "options": {
         "outputPath": "dist/packages/spotly-backend-core",
         "tsConfig": "packages/spotly-backend-core/tsconfig.lib.json",
@@ -36,6 +29,13 @@
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
         "jestConfig": "packages/spotly-backend-core/jest.config.ts"
+      }
+    },
+    "prisma:generate": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "prisma generate --schema=packages/spotly-backend-core/prisma/schema.prisma",
+        "cwd": "{workspaceRoot}"
       }
     }
   }

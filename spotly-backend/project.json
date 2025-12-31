@@ -1,0 +1,96 @@
+{
+  "name": "root",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'skipped'"
+      }
+    },
+    "scan": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "trivy fs --scanners secret,config ."
+      }
+    },
+    "generate-js-dependency-list": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers javascript-package | jq -r '.packages | map({name: .name, version: .versionInfo, licenseConcluded: .licenseConcluded, licenseDeclared: .licenseDeclared})' > docs/sbom/dependencies-js.json"
+      }
+    },
+    "generate-js-license-dependency-list": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers javascript-package | jq -r '.packages | map({name: .name, version: .versionInfo, licenseConcluded: .licenseConcluded, licenseDeclared: .licenseDeclared}) | [group_by(.licenseConcluded)[] | {(.[0].licenseConcluded): {count: length, deps: [.[] | {name: .name, version: .version}]}}]' > docs/sbom/license-dependencies-js.json"
+      }
+    },
+    "generate-dart-dependency-list": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers dartlang-lock | jq -r '.packages | map({name: .name, version: .versionInfo, licenseConcluded: .licenseConcluded, licenseDeclared: .licenseDeclared})' > docs/sbom/dependencies-dart.json"
+      }
+    },
+    "generate-dart-license-dependency-list": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers dartlang-lock | jq -r '.packages | map({name: .name, version: .versionInfo, licenseConcluded: .licenseConcluded, licenseDeclared: .licenseDeclared}) | [group_by(.licenseConcluded)[] | {(.[0].licenseConcluded): {count: length, deps: [.[] | {name: .name, version: .version}]}}]' > docs/sbom/license-dependencies-dart.json"
+      }
+    },
+    "generate-js-spdx-sbom": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers javascript-package > docs/sbom/js-spdx.json"
+      }
+    },
+    "generate-dart-spdx-sbom": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o spdx-json --catalogers dartlang-lock > docs/sbom/dart-spdx.json"
+      }
+    },
+    "generate-js-cyclonedx-sbom": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o cyclonedx-json --catalogers javascript-package > docs/sbom/js-cyclonedx.json"
+      }
+    },
+    "generate-dart-cyclonedx-sbom": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "syft packages dir:./ -o cyclonedx-json --catalogers dartlang-lock > docs/sbom/dart-cyclonedx.json"
+      }
+    },
+    "generate-sbom-all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'success'"
+      },
+      "dependsOn": [
+        "generate-js-spdx-sbom",
+        "generate-dart-spdx-sbom",
+        "generate-js-cyclonedx-sbom",
+        "generate-dart-cyclonedx-sbom",
+        "generate-js-dependency-list",
+        "generate-dart-dependency-list",
+        "generate-js-license-dependency-list",
+        "generate-dart-license-dependency-list"
+      ]
+    },
+    "sync-commons": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cp -R '{args.commonsRoot}/dist/packages/' '{projectRoot}/node_modules/@1k5/'"
+      }
+    },
+    "sync-commons:watch": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx nodemon -w {args.commonsRoot}/dist/packages/ -x 'nx run root:sync-commons --commonsRoot={args.commonsRoot}'"
+      }
+    }
+  }
+}

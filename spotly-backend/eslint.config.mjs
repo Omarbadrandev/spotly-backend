@@ -22,7 +22,9 @@ export default [
                 {
                     enforceBuildableLibDependency: true,
                     allow: [
-                        "^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$"
+                        "^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$",
+                        "@spotly-backend/core",
+                        "@spotly-backend/*"
                     ],
                     depConstraints: [
                         {
@@ -31,7 +33,8 @@ export default [
                                 "*"
                             ]
                         }
-                    ]
+                    ],
+                    banTransitiveDependencies: false
                 }
             ]
         }

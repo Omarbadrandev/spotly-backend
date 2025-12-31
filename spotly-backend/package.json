@@ -4,25 +4,30 @@
   "license": "MIT",
   "scripts": {
     "commit": "cz",
-    "build": "nx run-many -t build",
-    "test": "nx run-many -t test",
+    "build": "nx run-many -t build --exclude=root",
+    "test": "nx run-many -t test --exclude=root",
     "lint": "nx run-many -t lint",
     "typecheck": "nx run-many -t typecheck",
-    "serve": "nx serve @spotly-backend/spotly-backend",
-    "prisma:generate": "nx run @spotly-backend/core:prisma:generate",
-    "prisma:migrate": "pnpm --filter @spotly-backend/core run prisma:migrate",
-    "prisma:migrate:apply": "pnpm --filter @spotly-backend/core run prisma:migrate:apply",
-    "prisma:studio": "pnpm --filter @spotly-backend/core run prisma:studio"
+    "serve": "nx serve spotly-backend",
+    "prisma:generate": "nx run spotly-backend-core:prisma:generate",
+    "prisma:migrate": "pnpm --filter spotly-backend-core run prisma:migrate",
+    "prisma:migrate:apply": "pnpm --filter spotly-backend-core run prisma:migrate:apply",
+    "prisma:studio": "pnpm --filter spotly-backend-core run prisma:studio",
+    "openapi:generate": "nx run spotly-backend:openapi:generate",
+    "openapi:export": "nx run spotly-backend:openapi:export"
   },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
     "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/swagger": "^11.2.3",
     "@prisma/client": "^5.22.0",
     "axios": "^1.6.0",
+    "nestjs-zod": "^5.0.1",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0"
+    "rxjs": "^7.8.0",
+    "zod": "^4.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -56,7 +61,9 @@
     "prisma": "^5.22.0",
     "ts-jest": "^29.4.0",
     "ts-node": "10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "tslib": "^2.3.0",
+    "tsx": "^4.21.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",
     "webpack-cli": "^5.1.4"

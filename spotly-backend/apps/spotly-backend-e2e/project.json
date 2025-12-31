@@ -1,10 +1,10 @@
 {
-  "name": "@spotly-backend/spotly-backend-e2e",
+  "name": "spotly-backend-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/spotly-backend-e2e/src",
   "projectType": "application",
   "tags": ["e2e"],
-  "implicitDependencies": ["@spotly-backend/spotly-backend"],
+  "implicitDependencies": ["spotly-backend"],
   "targets": {
     "e2e": {
       "executor": "@nx/jest:jest",
@@ -13,7 +13,7 @@
         "jestConfig": "apps/spotly-backend-e2e/jest.config.cts",
         "passWithNoTests": true
       },
-      "dependsOn": ["@spotly-backend/spotly-backend:build"]
+      "dependsOn": ["spotly-backend:build"]
     },
     "lint": {
       "executor": "@nx/eslint:lint",
