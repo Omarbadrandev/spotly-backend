@@ -18,11 +18,16 @@ export class ParkingSpotsApiService {
       description: createParkingSpotDto.description ?? null,
       latitude: createParkingSpotDto.latitude,
       longitude: createParkingSpotDto.longitude,
+      paid: createParkingSpotDto.paid ?? false,
     };
     return this.parkingSpotsService.create(input);
   }
 
   async listParkingSpots(): Promise<ParkingSpotsListResponseDto> {
     return this.parkingSpotsService.list();
+  }
+
+  async deleteParkingSpot(id: string): Promise<void> {
+    return this.parkingSpotsService.delete(id);
   }
 }

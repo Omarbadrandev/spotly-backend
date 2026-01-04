@@ -6,6 +6,7 @@ export const createParkingSpotSchema = z.object({
   description: z.string().optional(),
   latitude: z.number().min(-90).max(90),
   longitude: z.number().min(-180).max(180),
+  paid: z.boolean().optional().default(false),
 });
 
 export class CreateParkingSpotDto extends createZodDto(
@@ -28,6 +29,7 @@ export const parkingSpotResponseSchema = z.object({
     .regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z?$/, {
       message: 'Invalid datetime format. Expected ISO 8601 format.',
     }),
+  paid: z.boolean(),
 });
 
 export class ParkingSpotResponseDto extends createZodDto(

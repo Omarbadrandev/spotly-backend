@@ -1,20 +1,51 @@
 generator client {
-    provider = "prisma-client-js"
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
 }
 
 datasource db {
-    provider = "postgresql"
-    url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model ParkingSpot {
-    id          String   @id @default(uuid())
-    name        String
-    description String?
-    latitude    Float
-    longitude   Float
-    createdAt   DateTime @default(now())
-    updatedAt   DateTime @updatedAt
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  latitude    Float
+  longitude   Float
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  paid        Boolean  @default(false)
 
-    @@map("parking_spots")
+  @@map("parking_spots")
+}
+
+model Settings {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  notificationsRadius Int     @default(100) @map("notifications_radius")
+  showPaidSpots       Boolean @default(false) @map("show_paid_spots")
+  showUnpaidSpots     Boolean @default(false) @map("show_unpaid_spots")
+
+  userId String @map("user_id")
+  user   User?  @relation(fields: [userId], references: [id])
+
+  @@map("settings")
+}
+
+model User {
+  id      String @id @default(uuid())
+  name    String @map("name")
+  surname String @map("surname")
+
+  phone     String?    @map("phone")
+  email     String     @unique @map("email")
+  createdAt DateTime   @default(now()) @map("created_at")
+  updatedAt DateTime   @updatedAt @map("updated_at")
+  settings  Settings[]
+
+  @@map("users")
 }

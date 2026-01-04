@@ -13,12 +13,22 @@ async function bootstrap() {
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
 
+  // Enable CORS for web clients
+  app.enableCors({
+    origin: true, // Allow all origins in development
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+  });
+
   // Swagger/OpenAPI setup
   const config = new DocumentBuilder()
     .setTitle('Spotly Backend API')
     .setDescription('API documentation for Spotly Backend')
     .setVersion('1.0')
     .addTag('parking-spots', 'Parking spots management')
+    .addTag('users', 'User management')
+    .addTag('settings', 'User settings management')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api/docs', app, document, {

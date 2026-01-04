@@ -1,69 +1,56 @@
-import { PrismaClient, ParkingSpot } from '@prisma/client';
-import { z } from 'zod';
+import { ParkingSpot, PrismaClient } from '@prisma/client';
+import {
+  ParkingSpotModel,
+  parkingSpotModel,
+  toISOStringOrValue,
+} from '@spotly-backend/core';
 
 export interface CreateParkingSpotInput {
   name: string;
   description?: string | null;
   latitude: number;
   longitude: number;
+  paid?: boolean;
 }
-
-export const parkingSpotDomainSchema = z.object({
-  id: z.string().uuid(),
-  name: z.string(),
-  description: z.string().nullable(),
-  latitude: z.number(),
-  longitude: z.number(),
-  createdAt: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z?$/, {
-      message: 'Invalid datetime format. Expected ISO 8601 format.',
-    }),
-  updatedAt: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z?$/, {
-      message: 'Invalid datetime format. Expected ISO 8601 format.',
-    }),
-});
-
-export type ParkingSpotDomain = z.infer<typeof parkingSpotDomainSchema>;
 
 export class ParkingSpotsRepository {
   constructor(private readonly prisma: PrismaClient) {}
 
-  private toDomain(spot: ParkingSpot): ParkingSpotDomain {
-    return parkingSpotDomainSchema.parse({
+  private toDomain(spot: ParkingSpot): ParkingSpotModel {
+    return parkingSpotModel.parse({
       id: spot.id,
       name: spot.name,
       description: spot.description,
       latitude: spot.latitude,
       longitude: spot.longitude,
-      createdAt:
-        spot.createdAt instanceof Date
-          ? spot.createdAt.toISOString()
-          : spot.createdAt,
-      updatedAt:
-        spot.updatedAt instanceof Date
-          ? spot.updatedAt.toISOString()
-          : spot.updatedAt,
+      createdAt: toISOStringOrValue(spot.createdAt),
+      updatedAt: toISOStringOrValue(spot.updatedAt),
+      paid: spot.paid ?? false,
     });
   }
 
-  async create(data: CreateParkingSpotInput): Promise<ParkingSpotDomain> {
+  async create(data: CreateParkingSpotInput): Promise<ParkingSpotModel> {
     const spot = await this.prisma.parkingSpot.create({
       data: {
         name: data.name,
         description: data.description ?? null,
         latitude: data.latitude,
         longitude: data.longitude,
+        paid: data.paid ?? false,
       },
     });
     return this.toDomain(spot);
   }
 
   // TODO: add pagination and query parameters
-  async listParkingSpots(): Promise<ParkingSpotDomain[]> {
+  async listParkingSpots(): Promise<ParkingSpotModel[]> {
     const spots = await this.prisma.parkingSpot.findMany();
-    return spots.map((spot) => this.toDomain(spot));
+    return spots.map((spot: ParkingSpot) => this.toDomain(spot));
+  }
+
+  async delete(id: string): Promise<void> {
+    await this.prisma.parkingSpot.delete({
+      where: { id },
+    });
   }
 }

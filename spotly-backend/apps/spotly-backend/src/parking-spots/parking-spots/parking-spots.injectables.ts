@@ -1,14 +1,14 @@
 import { Injectable } from '@nestjs/common';
-import { PrismaClient } from '@prisma/client';
 import {
   ParkingSpotsRepository,
   ParkingSpotsService,
 } from '@spotly-backend/core';
+import { PrismaService } from '../../app/prisma.service';
 
 @Injectable()
 export class ParkingSpotsRepository_Injectable extends ParkingSpotsRepository {
-  constructor() {
-    super(new PrismaClient());
+  constructor(prisma: PrismaService) {
+    super(prisma);
   }
 }
 

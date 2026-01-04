@@ -8,7 +8,7 @@
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "prisma:generate"],
       "options": {
         "outputPath": "dist/packages/spotly-backend-core",
         "tsConfig": "packages/spotly-backend-core/tsconfig.lib.json",
@@ -34,8 +34,8 @@
     "prisma:generate": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "prisma generate --schema=packages/spotly-backend-core/prisma/schema.prisma",
-        "cwd": "{workspaceRoot}"
+        "command": "pnpm --filter @spotly-backend/core exec prisma generate --schema=prisma/schema.prisma",
+        "cwd": "packages/spotly-backend-core"
       }
     }
   }

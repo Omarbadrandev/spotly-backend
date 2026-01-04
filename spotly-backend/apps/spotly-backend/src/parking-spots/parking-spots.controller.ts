@@ -6,6 +6,8 @@ import {
   HttpCode,
   HttpStatus,
   Version,
+  Param,
+  Delete,
 } from '@nestjs/common';
 import {
   ApiTags,
@@ -64,5 +66,20 @@ export class ParkingSpotsController {
   })
   async listParkingSpots() {
     return this.parkingSpotsApiService.listParkingSpots();
+  }
+
+  @Delete(':id')
+  @Version('1')
+  @HttpCode(HttpStatus.NO_CONTENT)
+  @ApiOperation({
+    summary: 'Delete a parking spot',
+    description: 'Deletes a parking spot by its ID',
+  })
+  @ApiResponse({
+    status: 204,
+    description: 'Parking spot successfully deleted',
+  })
+  async deleteParkingSpot(@Param('id') id: string) {
+    return this.parkingSpotsApiService.deleteParkingSpot(id);
   }
 }
